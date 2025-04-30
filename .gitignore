@@ -1,0 +1,34 @@
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Python
+backend/__pycache__/
+backend/app/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/venv/
+backend/ENV/
+
+# IDE
+backend/.idea/
+backend/.vscode/
+backend/*.swp
+backend/*.swo
+
+# Database
+backend/*.db
+backend/*.sqlite3
+
+# Document
+backend/docs/
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
